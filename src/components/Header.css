@@ -1,0 +1,14 @@
+:root{--accent:#f6a623}
+
+.site-header{
+  position:fixed;left:0;right:0;top:0;z-index:40;
+  background:linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.85));
+  border-bottom:1px solid rgba(16,16,16,0.04);
+}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:18px 40px}
+.logo{display:flex;align-items:center;gap:8px;font-weight:700;color:var(--accent)}
+.logo .paw{font-size:20px}
+.brand{font-size:20px}
+.main-nav{display:flex;align-items:center;gap:18px}
+.main-nav a{color:#444;text-decoration:none;padding:6px 8px}
+.main-nav .btn{background:var(--accent);color:#fff;border:none;padding:8px 16px;border-radius:24px;cursor:pointer}
